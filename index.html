@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Tham Gia Câu Lạc Bộ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Đăng Ký Tham Gia Câu Lạc Bộ 📝🤤🤫</h1>
+        
+        <form action="gửi ở đâu nhỉ?" method="post"> <!--CHƯA TRỎ TRANG WEB VÀ NƠI GỬI TT ĐKI-->
+            
+            <label for="ho_ten">Họ và Tên:</label>
+            <input type="text" id="ho_ten" name="ho_ten" required placeholder="Nhập đủ nhé cu em">
+
+            <label for="hoc_sinh_lop">Học sinh Lớp:</label>
+            <input type="text" id="hoc_sinh_lop" name="hoc_sinh_lop" required placeholder="Xin cái địa chỉ lớp"> 
+            
+            <label for="email">Email (nếu có):</label>
+            <input type="email" id="email" name="email" placeholder="Đưa email cho anh nào">
+
+            <label for="so_dien_thoai">Số điện thoại:</label>
+            <input type="tel" id="so_dien_thoai" name="so_dien_thoai" required placeholder="Anh xin in4">
+
+            <hr>
+
+            <fieldset>
+                <legend>Chọn Câu Lạc Bộ Muốn Tham Gia:</legend>
+                
+                <div class="club-option">
+                    <input type="checkbox" id="clb_tin_hoc" name="clb_tham_gia[]" value="Tin Học">
+                    <label for="clb_tin_hoc">💻 Câu Lạc Bộ Tin Học</label>
+                </div>
+
+                <div class="club-option">
+                    <input type="checkbox" id="clb_the_thao" name="clb_tham_gia[]" value="Thể Thao">
+                    <label for="clb_the_thao">⚽ Câu Lạc Bộ Thể Thao</label>
+                </div>
+
+                <div class="club-option">
+                    <input type="checkbox" id="clb_van_nghe" name="clb_tham_gia[]" value="Văn Nghệ">
+                    <label for="clb_van_nghe">🎤 Câu Lạc Bộ Văn Nghệ</label>
+                </div>
+                
+            </fieldset>
+
+            <button type="submit">Đăng Ký Tham Gia</button>
+            
+        </form>
+        <audio loop autoplay src="audio/LUAR EP - Lancelot Fyu - Zing MP3.mp3">
+    </div>
+
+</body>
+</html>
